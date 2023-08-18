@@ -1,0 +1,27 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+aside ul li {
+    display: flex;
+}
+
+.avatar {
+    height: 40px;
+}
+
+.avatar-lg {
+    height: 60px;
+}
